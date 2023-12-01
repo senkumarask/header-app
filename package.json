@@ -13,8 +13,8 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-   "start": "webpack serve",
-   "build": "webpack --config webpack.config.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
