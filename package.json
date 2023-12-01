@@ -13,9 +13,12 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack --mode production",
-    "deploy-gcp": "gsutil cp -r gs://mf-header-app"
+   // "start": "webpack serve",
+   // "build": "webpack --mode production",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
